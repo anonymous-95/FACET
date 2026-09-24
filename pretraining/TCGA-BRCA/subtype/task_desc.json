@@ -1,9 +1,0 @@
-{
-  "task": "Classify intrinsic subtype in breast carcinoma. Classes: LumA, LumB, Basal, and Her2. Useful H&E features include tubule formation, nuclear grade, mitotic rate, necrosis, and whether the tumor has luminal differentiation, highly proliferative luminal morphology, basal-like high-grade appearance, or HER2-enriched pleomorphic architecture.",
-  "classes": {
-    "0": "LumA tumor with well-developed tubules, lower grade nuclei, and relatively low proliferative morphology.",
-    "1": "LumB tumor with luminal differentiation but higher cellularity, higher grade nuclei, and more mitotic activity than LumA.",
-    "2": "Basal tumor with solid growth, marked pleomorphism, scant gland formation, and brisk mitotic activity.",
-    "3": "Her2 tumor with high-grade pleomorphic cells in nests or sheets, limited tubules, and frequent necrosis."
-  }
-}

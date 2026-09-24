@@ -1,7 +1,0 @@
-{
-  "task": "Classify microsatellite instability status in colorectal adenocarcinoma. Classes: MSI vs. MSS. Key H&E indicators of MSI include abundant tumor-infiltrating lymphocytes, mucinous or medullary features, poor differentiation, and pushing growth pattern, whereas MSS tumors more often appear as conventional gland-forming adenocarcinomas.",
-  "classes": {
-    "0": "MSI tumor with dense lymphocytic infiltration, mucinous or medullary features, and reduced gland formation.",
-    "1": "MSS tumor with more conventional gland-forming adenocarcinoma morphology and less prominent immune infiltration."
-  }
-}

@@ -1,7 +1,0 @@
-{
-  "task": "Classify nodal stage risk in non-small cell lung cancer. Classes: node negative vs. node positive. Helpful H&E indicators of nodal spread include lymphovascular invasion, infiltrative growth, pleural invasion, poor differentiation, and other aggressive features associated with metastatic potential.",
-  "classes": {
-    "0": "Node-negative tumor with less morphologic evidence of metastatic potential and no nodal involvement.",
-    "1": "Node-positive tumor with aggressive features such as lymphovascular invasion, infiltrative borders, or poor differentiation suggesting nodal spread."
-  }
-}

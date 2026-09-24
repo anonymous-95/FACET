@@ -1,8 +1,0 @@
-{
-  "task": "Classify tumor type in endometrial carcinoma. Classes: Endometrioid, Serous, and Mixed. Key H&E features include glandular endometrioid differentiation, papillary high-grade serous morphology, or the coexistence of both patterns in a mixed tumor.",
-  "classes": {
-    "0": "Endometrioid tumor with gland-forming architecture and conventional endometrial-type differentiation.",
-    "1": "Serous tumor with papillary or micropapillary growth, severe cytologic atypia, and high-grade nuclei.",
-    "2": "Mixed tumor containing distinct endometrioid and serous morphologic patterns."
-  }
-}

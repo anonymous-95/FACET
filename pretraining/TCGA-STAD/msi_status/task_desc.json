@@ -1,7 +1,0 @@
-{
-  "task": "Classify microsatellite instability status in gastric adenocarcinoma. Classes: MSI vs. MSS. Key H&E clues for MSI include dense tumor-infiltrating lymphocytes, Crohn-like peritumoral lymphoid aggregates, mucinous change, and poor gland formation compared with more conventional MSS tumors.",
-  "classes": {
-    "0": "MSI gastric adenocarcinoma with prominent lymphocytic infiltration, lymphoid aggregates, and often mucinous or poorly differentiated morphology.",
-    "1": "MSS gastric adenocarcinoma with more conventional gland-forming morphology and less conspicuous lymphoid reaction."
-  }
-}

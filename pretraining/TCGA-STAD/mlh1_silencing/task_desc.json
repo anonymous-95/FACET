@@ -1,7 +1,0 @@
-{
-  "task": "Classify MLH1 silencing in gastric adenocarcinoma. Classes: No_Silencing vs. Silenced. Key H&E indicators for MLH1-silenced tumors include dense tumor-infiltrating lymphocytes, mucinous change, poor differentiation, and medullary or pushing growth patterns associated with mismatch repair deficiency.",
-  "classes": {
-    "0": "Tumor without MLH1 silencing, more often showing conventional gastric adenocarcinoma morphology without prominent MSI-like inflammatory features.",
-    "1": "MLH1-silenced tumor with lymphocyte-rich, poorly differentiated, mucinous, or medullary-like morphology suggestive of mismatch repair deficiency."
-  }
-}

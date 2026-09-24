@@ -1,7 +1,0 @@
-{
-  "task": "Predict lymph node presentation status in esophageal carcinoma. Classes: Node_Negative vs. Node_Positive. H&E features associated with nodal spread include lymphovascular invasion, deeper invasion, poor differentiation, infiltrative borders, and tumor budding.",
-  "classes": {
-    "0": "Node-negative tumor lacking strong H&E evidence of metastatic propensity such as conspicuous lymphovascular invasion or marked infiltrative budding.",
-    "1": "Node-positive tumor with aggressive morphology, especially lymphovascular invasion, infiltrative growth, tumor budding, or poor differentiation."
-  }
-}
