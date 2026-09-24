@@ -28,25 +28,40 @@ unseen tasks and unseen cancer types, demonstrating robust generalization.
 
 ## Why FACET?
 
-Slide-level foundation models compress a whole-slide image into one embedding and reuse it for
-every downstream question. A slide, though, carries many kinds of morphological evidence, and only
-some of it bears on any given clinical or biological task.
+Most whole-slide foundation models map a slide to a single, task-agnostic representation. FACET
+takes a different approach: **the representation itself is conditioned on the downstream task**.
+Given a natural-language description of the prediction objective, FACET uses its text embedding to
+query the slide's patch representations through cross-attention pooling. The same WSI can therefore
+produce different task-conditioned representations `z_t`, each emphasizing the visual evidence most
+relevant to the question being asked.
+This design is motivated by a simple observation: **what matters in a slide depends on the task**.
+Across independently trained models, FACET's study finds that different prediction objectives attend
+to systematically different tissue regions, and transferring attention patterns between tasks degrades
+performance. Task conditioning makes this dependence part of the foundation model itself rather than
+leaving all task adaptation to a downstream model.
 
-FACET drops the assumption that one embedding fits all. It reads a natural-language description of
-the prediction objective and uses it as the query of a cross-attention pooling layer over the
-slide's patch tokens, so the same slide yields a different representation `z_t` for every task,
-each weighted toward the evidence that task needs. On an external benchmark of 40 CPTAC tasks,
-FACET outperforms leading slide-level foundation models, including on prediction objectives and
-cancer types it never saw during pretraining.
+- **Task-conditioned by design.** A natural-language task description directly controls slide
+  aggregation, producing a representation specialized to the requested prediction objective.
 
-- **New tasks cost a sentence, not a training run.** Describe the objective and query the model.
-  No per-task head, no labels, no finetuning.
-- **Clinical context is just more text.** Appending a patient attribute to the task description
-  folds priors beyond morphology into the representation, with the model untouched.
-- **Small and reproducible.** 3.1M parameters pretrained on 3,359 public TCGA slides, an order of
-  magnitude less pretraining data than most slide-level foundation models.
-- **Everything but the weights is here.** All 69 task definitions, label files, splits and
-  descriptions used in the paper.
+- **Generalizes beyond pretraining tasks.** FACET is evaluated on an external CPTAC benchmark
+  spanning 40 prediction tasks and nine cohorts, including previously unseen prediction objectives
+  and five cancer types absent from pretraining.
+
+- **Strong frozen representations.** FACET outperforms leading slide-level foundation models on
+  average under linear probing, KNN, and CoxNet evaluation, with its largest gains observed when
+  the slide encoder remains frozen.
+
+- **Clinical context can enter through language.** Patient-level attributes can be appended to the
+  task description and incorporated into the resulting slide representation without modifying or
+  retraining the foundation model.
+
+- **Compact, data-efficient pretraining.** FACET contains only 3.1M trainable parameters and was
+  pretrained on 3,359 publicly available TCGA slides across 29 tasks and six cancer types—an order
+  of magnitude fewer WSIs than most recent slide-level foundation models.
+
+- **Built for reproducible evaluation.** FACET uses public TCGA/CPTAC data and standardized
+  Patho-Bench downstream tasks and splits. We release the pretrained model, code, task and class
+  descriptions, labels, manifests, prompting templates, and evaluation resources.
 
 
 
@@ -68,7 +83,7 @@ git clone https://github.com/mahmoodlab/Patho-Bench.git && cd Patho-Bench
 pip install -r requirements.txt && pip install -e .
 ```
 
-This also brings in [TRIDENT](https://github.com/mahmoodlab/trident), which we used to preprocess
+This installs [TRIDENT](https://github.com/mahmoodlab/trident), which we used to preprocess
 whole-slide images into patch features.
 
 ## Model access
@@ -78,7 +93,7 @@ not included.** They will be released on Hugging Face upon publication.
 
 FACET builds on two gated Mahmood Lab models and redistributes neither. Request access
 individually to [CONCH v1.5](https://huggingface.co/MahmoodLab/conchv1_5) (patch features) and
-[CONCH](https://huggingface.co/MahmoodLab/conch) (text encoder), then run `huggingface-cli login`.
+[CONCH](https://huggingface.co/MahmoodLab/conch) (text encoder).
 
 ## Usage
 
