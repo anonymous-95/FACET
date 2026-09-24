@@ -1,0 +1,8 @@
+{
+  "task": "Classify immune infiltration level in breast cancer as low, medium, or high. On H&E, focus on the density and distribution of stromal and intratumoral lymphocytes and plasma cells relative to the tumor cell component.",
+  "classes": {
+    "0": "Low immune class with sparse tumor-infiltrating lymphocytes and little inflammatory stroma.",
+    "1": "Medium immune class with a moderate lymphocytic infiltrate in tumor stroma or within tumor nests.",
+    "2": "High immune class with dense stromal and intratumoral lymphocytic infiltration prominently surrounding or permeating tumor."
+  }
+}

@@ -1,0 +1,17 @@
+# Source: Patho-Bench (Mahmood Lab), https://huggingface.co/datasets/MahmoodLab/Patho-Bench
+# License: CC-BY-NC-4.0. Redistributed unmodified; see data/evaluation/README.md for citation.
+datasets:
+  - cptac_hnsc
+
+task_col: Immune_class
+extra_cols: []  # Extra columns to copy from raw metadata to split TSVs
+task_type: classification
+metrics:
+  - bacc
+label_dict:
+  0: low
+  1: medium
+  2: high
+
+sample_col: case_id
+num_samples: 107

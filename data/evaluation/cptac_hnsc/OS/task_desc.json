@@ -1,0 +1,13 @@
+{
+  "task": "Predict overall survival in head and neck squamous cell carcinoma using discretized time bins. Each class represents one of four survival quartiles with either censored status or death having occurred. Morphological indicators of worse outcome on H&E include poor differentiation, infiltrative growth, tumor necrosis, marked nuclear atypia, and stromal or perineural invasion patterns.",
+  "classes": {
+    "0": "Earliest survival quartile, censored — short follow-up interval with no death recorded.",
+    "1": "Second survival quartile, censored — intermediate-short follow-up with no death recorded.",
+    "2": "Third survival quartile, censored — intermediate-long follow-up with no death recorded.",
+    "3": "Latest survival quartile, censored — longest follow-up with no death recorded.",
+    "4": "Earliest survival quartile, event — death occurred early, consistent with aggressive tumor behavior.",
+    "5": "Second survival quartile, event — death occurred in an intermediate-short time interval.",
+    "6": "Third survival quartile, event — death occurred in an intermediate-long time interval.",
+    "7": "Latest survival quartile, event — death occurred late after prolonged survival."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "task": "Classify immune infiltration level in head and neck squamous cell carcinoma. Classes: low, medium, and high immune class, reflecting increasing amounts of tumor-associated inflammatory and lymphoid infiltrates. Key H&E indicators include the density and distribution of tumor-infiltrating lymphocytes, stromal inflammation, lymphoid aggregates, and the balance between tumor nests and inflamed stroma.",
+  "classes": {
+    "0": "Low immune class with sparse tumor-infiltrating lymphocytes and little stromal or peritumoral inflammation.",
+    "1": "Medium immune class with a moderate lymphocytic infiltrate in tumor nests or surrounding stroma.",
+    "2": "High immune class with dense diffuse lymphoid infiltration, prominent stromal inflammation, or conspicuous lymphoid aggregates."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "task": "Predict TP53 mutation status in glioblastoma. Classes: wildtype vs. mutant. On H&E, useful distinctions include degree of nuclear pleomorphism, giant-cell change, cellular atypia, mitotic activity, necrosis, and infiltrative astrocytic morphology.",
+  "classes": {
+    "0": "TP53 wildtype glioblastoma with conventional high-grade astrocytic features but less emphasis on marked pleomorphism or giant-cell morphology.",
+    "1": "TP53 mutant glioblastoma showing pronounced nuclear atypia, pleomorphism, and sometimes giant-cell or highly anaplastic morphology."
+  }
+}

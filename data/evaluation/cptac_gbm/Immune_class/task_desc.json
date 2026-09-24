@@ -1,0 +1,8 @@
+{
+  "task": "Classify immune infiltration level in glioblastoma. Classes: low, medium, and high immune class. On H&E, focus on the amount and distribution of lymphocytes and other inflammatory cells, including perivascular cuffing and inflammatory infiltrates within viable tumor and around necrosis.",
+  "classes": {
+    "0": "Low immune class with scant inflammatory cells and minimal lymphocytic infiltration in or around the tumor.",
+    "1": "Medium immune class with a moderate but not diffuse inflammatory infiltrate within the tumor microenvironment.",
+    "2": "High immune class with conspicuous dense immune-cell infiltration, including prominent perivascular or intratumoral inflammatory aggregates."
+  }
+}

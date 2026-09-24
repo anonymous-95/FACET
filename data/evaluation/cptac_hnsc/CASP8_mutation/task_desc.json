@@ -1,0 +1,7 @@
+{
+  "task": "Predict CASP8 mutation status in head and neck squamous cell carcinoma. Classes: wildtype vs. mutant. On H&E, relevant features include keratinization, tumor-stroma interface, inflammatory infiltrates, necrosis, and patterns of squamous differentiation that may reflect altered cell-death signaling.",
+  "classes": {
+    "0": "CASP8 wildtype head and neck squamous cell carcinoma with conventional squamous morphology without a distinctive inflammation-rich or altered keratinizing pattern.",
+    "1": "CASP8 mutant head and neck squamous cell carcinoma showing squamous differentiation with altered keratinization, necrosis, and often a more prominent inflammatory stromal response."
+  }
+}

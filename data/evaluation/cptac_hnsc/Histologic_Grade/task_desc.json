@@ -1,0 +1,8 @@
+{
+  "task": "Predict histologic grade in head and neck squamous cell carcinoma. Classes: 1, 2, and 3, corresponding to well differentiated, moderately differentiated, and poorly differentiated tumor. On H&E, distinguish grades by keratinization, intercellular bridges, nuclear atypia, mitotic activity, and loss of squamous maturation.",
+  "classes": {
+    "0": "Grade 1 tumor with well-differentiated squamous morphology, abundant keratinization, and relatively preserved maturation.",
+    "1": "Grade 2 tumor with intermediate squamous differentiation, reduced keratinization, and moderate atypia.",
+    "2": "Grade 3 tumor with poor differentiation, minimal keratinization, marked atypia, and high mitotic activity."
+  }
+}

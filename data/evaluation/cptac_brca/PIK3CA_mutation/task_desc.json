@@ -1,0 +1,7 @@
+{
+  "task": "Predict PIK3CA mutation status in breast cancer. Classes: wildtype vs mutant. On H&E, subtle correlates may include more differentiated hormone receptor-like morphology, lower nuclear grade, and less extreme pleomorphism in mutant tumors compared with more overtly aggressive alternatives.",
+  "classes": {
+    "0": "PIK3CA wildtype tumor lacking distinctive mutation-associated morphology and more often showing non-specific invasive breast carcinoma features.",
+    "1": "PIK3CA mutant tumor with relatively differentiated morphology, often lower grade appearance, and less marked pleomorphism."
+  }
+}

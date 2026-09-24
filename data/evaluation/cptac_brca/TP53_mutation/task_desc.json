@@ -1,0 +1,7 @@
+{
+  "task": "Predict TP53 mutation status in breast cancer. Classes: wildtype vs mutant. Look for high nuclear grade, marked pleomorphism, brisk mitotic activity, solid growth, and geographic necrosis that can accompany TP53-altered aggressive morphology.",
+  "classes": {
+    "0": "TP53 wildtype tumor with comparatively lower grade morphology and fewer extreme atypical mitotic or pleomorphic features.",
+    "1": "TP53 mutant tumor showing high-grade nuclei, marked pleomorphism, frequent mitoses, and often necrotic or pushing high-grade growth."
+  }
+}

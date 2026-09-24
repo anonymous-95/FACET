@@ -1,0 +1,7 @@
+{
+  "task": "Predict EGFR mutation status in glioblastoma. Classes: wildtype vs. mutant. On H&E, relevant clues include cellularity, pleomorphism, infiltrative growth, microvascular proliferation, necrosis, and small-cell or more monomorphic high-grade patterns that can accompany EGFR-altered tumors.",
+  "classes": {
+    "0": "EGFR wildtype glioblastoma with high-grade astrocytic morphology lacking the more stereotyped small-cell or monomorphic appearance often linked to EGFR alteration.",
+    "1": "EGFR mutant glioblastoma showing densely cellular high-grade tumor, often with more monomorphic or small-cell morphology, brisk proliferation, necrosis, and microvascular proliferation."
+  }
+}
