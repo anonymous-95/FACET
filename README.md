@@ -268,11 +268,3 @@ Patho-Bench license (CC BY-NC 4.0), and CONCH is subject to its own license and 
 
 Citation details will be added upon publication.
 
-```bibtex
-@inproceedings{anonymous2026facet,
-  title  = {FACET: Rethinking Whole-Slide Foundation Models Through Task-Conditioned Views},
-  author = {Anonymous},
-  year   = {2026},
-  note   = {Under review}
-}
-```
