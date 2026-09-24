@@ -1,0 +1,7 @@
+{
+  "task": "Predict STK11 mutation status in lung adenocarcinoma. Classes: wildtype vs. mutant. On H&E, focus on differences in gland formation, mucin production, stromal reaction, necrosis, and the degree of inflammatory infiltration that may separate these groups.",
+  "classes": {
+    "0": "STK11 wildtype lung adenocarcinoma with more conventional gland-forming morphology and less distinctive immune-cold appearance.",
+    "1": "STK11 mutant lung adenocarcinoma showing relatively immune-poor tumor stroma, variable mucinous change, and less inflamed morphology."
+  }
+}

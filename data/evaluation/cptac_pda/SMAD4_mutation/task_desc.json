@@ -1,0 +1,7 @@
+{
+  "task": "Predict SMAD4 mutation status in pancreatic ductal adenocarcinoma. Classes: wildtype vs. mutant. On H&E, distinguishing clues for SMAD4-altered tumors may include poorer differentiation, infiltrative growth, necrosis, and more aggressive stromal-invasive patterns, although morphology can be subtle.",
+  "classes": {
+    "0": "SMAD4 wildtype tumor with less overtly aggressive morphology and relatively preserved gland-forming differentiation.",
+    "1": "SMAD4 mutant tumor showing more poorly differentiated, infiltrative, and aggressive-appearing pancreatic adenocarcinoma features."
+  }
+}

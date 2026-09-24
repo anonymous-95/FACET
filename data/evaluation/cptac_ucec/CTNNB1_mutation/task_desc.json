@@ -1,0 +1,7 @@
+{
+  "task": "Predict CTNNB1 mutation status in endometrial carcinoma. Classes: negative vs. positive. On H&E, CTNNB1-mutant tumors often show low-grade endometrioid morphology with squamous differentiation, while negative tumors lack this mutation-associated pattern.",
+  "classes": {
+    "0": "CTNNB1-negative endometrial carcinoma lacking the characteristic low-grade endometrioid and squamous differentiation pattern linked to mutation.",
+    "1": "CTNNB1-positive endometrial carcinoma with low-grade endometrioid morphology and frequent squamous differentiation."
+  }
+}

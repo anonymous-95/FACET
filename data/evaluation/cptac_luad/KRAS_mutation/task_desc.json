@@ -1,0 +1,7 @@
+{
+  "task": "Predict KRAS mutation status in lung adenocarcinoma. Classes: negative vs. positive. On H&E, focus on architectural and cytologic differences such as mucinous differentiation, gland formation, solid growth, necrosis, and inflammatory background.",
+  "classes": {
+    "0": "KRAS-negative lung adenocarcinoma lacking the strongest morphology associated with KRAS-driven tumors, often with less mucinous differentiation.",
+    "1": "KRAS-positive lung adenocarcinoma showing features that may include mucinous change, invasive glandular or solid growth, and more aggressive cytologic atypia."
+  }
+}

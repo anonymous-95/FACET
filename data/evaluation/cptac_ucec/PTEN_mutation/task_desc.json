@@ -1,0 +1,7 @@
+{
+  "task": "Predict PTEN mutation status in endometrial carcinoma. Classes: negative vs. positive. On H&E, PTEN-mutant tumors are often low-grade endometrioid carcinomas with glandular architecture and relatively bland cytology, whereas negative tumors may lack this classic pattern.",
+  "classes": {
+    "0": "PTEN-negative endometrial carcinoma lacking the typical low-grade gland-forming endometrioid pattern associated with PTEN alteration.",
+    "1": "PTEN-positive endometrial carcinoma with low-grade endometrioid morphology, glandular architecture, and relatively bland nuclei."
+  }
+}

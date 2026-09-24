@@ -1,0 +1,7 @@
+{
+  "task": "Predict BAP1 mutation status in clear cell renal cell carcinoma of the kidney. Classes: wildtype vs. mutant. On H&E, BAP1-mutant tumors more often show higher nuclear grade, marked pleomorphism, prominent nucleoli, necrosis, and rhabdoid or sarcomatoid change.",
+  "classes": {
+    "0": "BAP1 wildtype clear cell renal cell carcinoma with more conventional clear cell morphology and less extreme nuclear atypia.",
+    "1": "BAP1 mutant clear cell renal cell carcinoma showing high-grade nuclei, conspicuous nucleoli, pleomorphism, necrosis, or rhabdoid or sarcomatoid features."
+  }
+}

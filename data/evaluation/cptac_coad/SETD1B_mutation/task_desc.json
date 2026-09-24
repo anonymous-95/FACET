@@ -1,0 +1,7 @@
+{
+  "task": "Predict SETD1B mutation status in colon adenocarcinoma. Classes: negative vs. positive. On H&E, useful cues are limited, but differences may relate to tumor differentiation, architectural disorder, mucinous change, and inflammatory or stromal context visible on routine sections.",
+  "classes": {
+    "0": "SETD1B-negative tumor without distinctive morphology beyond conventional colon adenocarcinoma patterns.",
+    "1": "SETD1B-positive tumor with relatively disordered architecture, variable differentiation, and possible mucinous or inflammatory features."
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "task": "Classify immune infiltration level in pancreatic ductal adenocarcinoma. Classes: low, medium, and high immune class. Relevant H&E features include the amount of tumor-infiltrating lymphocytes, stromal inflammatory cells, and the balance between desmoplastic stroma and active immune infiltrates.",
+  "classes": {
+    "0": "Low immune class with markedly sparse lymphocytes in a predominantly desmoplastic tumor stroma.",
+    "1": "Medium immune class with an intermediate inflammatory infiltrate scattered through tumor and stroma.",
+    "2": "High immune class with conspicuous lymphocytic infiltration within tumor and surrounding stroma despite desmoplasia."
+  }
+}

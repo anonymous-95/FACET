@@ -1,0 +1,7 @@
+{
+  "task": "Predict TP53 mutation status in lung adenocarcinoma. Classes: wildtype vs. mutant. Key H&E clues include tumor grade, nuclear pleomorphism, mitotic activity, solid growth, and necrosis, which are often more pronounced in TP53-mutant tumors.",
+  "classes": {
+    "0": "TP53 wildtype lung adenocarcinoma with relatively lower-grade cytology, less pleomorphism, and more orderly glandular differentiation.",
+    "1": "TP53 mutant lung adenocarcinoma with high-grade nuclei, increased mitoses, solid growth, and tumor necrosis."
+  }
+}

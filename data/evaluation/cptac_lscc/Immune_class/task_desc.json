@@ -1,0 +1,8 @@
+{
+  "task": "Classify immune infiltration level in lung squamous cell carcinoma. Classes: low, medium, and high immune class, reflecting increasing immune cell presence within and around the tumor. Key H&E indicators include the density of tumor-infiltrating lymphocytes, stromal inflammatory infiltrates, and the prominence of lymphoid aggregates relative to tumor cellularity.",
+  "classes": {
+    "0": "Low immune class with minimal lymphocytic infiltration and scant inflammatory stroma.",
+    "1": "Medium immune class with a moderate inflammatory infiltrate involving tumor nests or adjacent stroma.",
+    "2": "High immune class with dense lymphocytic infiltration, prominent inflamed stroma, or conspicuous lymphoid aggregates."
+  }
+}

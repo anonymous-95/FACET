@@ -1,0 +1,7 @@
+{
+  "task": "Predict PIK3CA mutation status in colon adenocarcinoma. Classes: negative vs. positive. On H&E, subtle differences may include mucinous differentiation, serrated-like architecture, tumor heterogeneity, and inflammatory stromal patterns, although separation is limited on routine morphology alone.",
+  "classes": {
+    "0": "PIK3CA-negative tumor lacking distinctive morphology suggestive of serrated or mucin-rich differentiation.",
+    "1": "PIK3CA-positive tumor with possible mucinous change, serrated-like glandular architecture, and heterogeneous growth patterns."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "task": "Predict ARID1A mutation status in lung squamous cell carcinoma. Classes: wildtype vs. mutant. On H&E, potentially informative differences may include variation in keratinization, tumor architecture, cytologic atypia, necrosis, and the degree of inflammatory or stromal reaction, although mutation-associated morphology can be subtle.",
+  "classes": {
+    "0": "ARID1A wildtype lung squamous cell carcinoma without distinctive mutation-associated morphologic pattern.",
+    "1": "ARID1A mutant lung squamous cell carcinoma with altered differentiation, architectural disorder, or atypical inflammatory-stromal context on H&E."
+  }
+}

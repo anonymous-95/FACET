@@ -1,0 +1,14 @@
+# Source: Patho-Bench (Mahmood Lab), https://huggingface.co/datasets/MahmoodLab/Patho-Bench
+# License: CC-BY-NC-4.0. Redistributed unmodified; see data/evaluation/README.md for citation.
+datasets:
+- cptac_lscc
+extra_cols: []
+label_dict:
+  0: Well differentiated
+  1: Moderately differentiated
+metrics:
+- weighted_kappa
+num_samples: 104
+sample_col: case_id
+task_col: Histologic_Grade
+task_type: classification

@@ -1,0 +1,7 @@
+{
+  "task": "Predict APC mutation status in colon adenocarcinoma. Classes: negative vs. positive. Helpful H&E cues include conventional gland-forming adenocarcinoma architecture, dirty necrosis, and infiltrative tubular or cribriform growth often seen in APC-altered colorectal tumors.",
+  "classes": {
+    "0": "APC-negative colon adenocarcinoma lacking the strongest conventional gland-forming colorectal phenotype.",
+    "1": "APC-positive colon adenocarcinoma with conventional glandular, tubular, or cribriform architecture and typical dirty necrosis."
+  }
+}

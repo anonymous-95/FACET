@@ -1,0 +1,8 @@
+{
+  "task": "Classify immune class in endometrial carcinoma. Classes: low, medium, and high immune infiltration. On H&E, the key distinction is the amount and distribution of tumor-infiltrating lymphocytes, stromal immune cells, and inflammatory reaction around and within tumor glands.",
+  "classes": {
+    "0": "Low immune class with sparse tumor-infiltrating lymphocytes and minimal stromal inflammatory infiltrate.",
+    "1": "Medium immune class with a moderate, patchy lymphocytic infiltrate in tumor and stroma.",
+    "2": "High immune class with dense diffuse tumor-infiltrating lymphocytes and prominent stromal inflammation."
+  }
+}

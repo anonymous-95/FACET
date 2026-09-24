@@ -1,0 +1,7 @@
+{
+  "task": "Predict ARID1A mutation status in colon adenocarcinoma. Classes: negative vs. positive. On H&E, ARID1A-mutant tumors may show mismatch repair-deficient or hypermutated morphology, including mucinous differentiation, dense lymphocytic infiltration, poor differentiation, and medullary growth.",
+  "classes": {
+    "0": "ARID1A-negative colon adenocarcinoma with more conventional gland-forming morphology and fewer lymphocyte-rich or mucinous features.",
+    "1": "ARID1A-positive colon adenocarcinoma with mucinous, poorly differentiated, medullary, or lymphocyte-rich morphology."
+  }
+}

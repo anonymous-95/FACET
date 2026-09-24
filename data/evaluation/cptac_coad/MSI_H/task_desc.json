@@ -1,0 +1,7 @@
+{
+  "task": "Classify microsatellite instability status in colon adenocarcinoma. Classes: negative vs. positive. On H&E, MSI-high positive tumors are suggested by dense tumor-infiltrating lymphocytes, mucinous or medullary features, poor gland formation, and pushing borders, whereas negative tumors more often show conventional adenocarcinoma morphology.",
+  "classes": {
+    "0": "Microsatellite stable or MSI-negative tumor with conventional gland-forming adenocarcinoma morphology and fewer tumor-infiltrating lymphocytes.",
+    "1": "MSI-high positive tumor with prominent lymphocytic infiltration, mucinous or medullary features, poor differentiation, and pushing growth."
+  }
+}

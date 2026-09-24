@@ -1,0 +1,7 @@
+{
+  "task": "Predict KEAP1 mutation status in lung squamous cell carcinoma. Classes: wildtype vs. mutant. On H&E, focus on differences in keratinization, cytologic atypia, necrosis, stromal inflammation, and other high-grade squamous features that may reflect altered oxidative stress pathway biology.",
+  "classes": {
+    "0": "KEAP1 wildtype lung squamous cell carcinoma with more conventional squamous morphology and without the strongest high-grade aggressive features.",
+    "1": "KEAP1 mutant lung squamous cell carcinoma showing more aggressive H&E patterns such as marked pleomorphism, necrosis, and disordered squamous differentiation."
+  }
+}

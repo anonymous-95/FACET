@@ -1,0 +1,8 @@
+{
+  "task": "Classify immune class in colon adenocarcinoma. Classes: low, medium, and high immune class. Key H&E indicators are the density and distribution of tumor-infiltrating lymphocytes, stromal inflammatory infiltrates, lymphoid aggregates, and the degree of immune-rich tumor microenvironment.",
+  "classes": {
+    "0": "Low immune class with sparse tumor-infiltrating lymphocytes and minimal stromal inflammatory infiltrate.",
+    "1": "Medium immune class with a moderate inflammatory infiltrate and intermediate numbers of tumor-associated lymphocytes.",
+    "2": "High immune class with dense tumor-infiltrating lymphocytes, prominent stromal inflammation, and frequent lymphoid aggregates."
+  }
+}

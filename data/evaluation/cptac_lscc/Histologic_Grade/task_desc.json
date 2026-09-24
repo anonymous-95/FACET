@@ -1,0 +1,7 @@
+{
+  "task": "Classify histologic grade in lung squamous cell carcinoma. Classes: well differentiated and moderately differentiated. Key H&E features include the extent of keratinization, intercellular bridges, preservation of squamous architecture, and the degree of nuclear pleomorphism and mitotic activity.",
+  "classes": {
+    "0": "Well differentiated squamous carcinoma with prominent keratinization, obvious intercellular bridges, and relatively preserved squamous maturation.",
+    "1": "Moderately differentiated squamous carcinoma with reduced keratinization, less orderly squamous maturation, and greater cytologic atypia."
+  }
+}

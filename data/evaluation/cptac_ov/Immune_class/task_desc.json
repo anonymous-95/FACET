@@ -1,0 +1,8 @@
+{
+  "task": "Classify immune infiltration level in ovarian high-grade serous carcinoma. Classes: low, medium, and high immune class. On H&E, assess the density and distribution of tumor-infiltrating lymphocytes, stromal inflammation, and lymphoid aggregates within and around tumor nests.",
+  "classes": {
+    "0": "Low immune class with sparse tumor-infiltrating lymphocytes and little stromal inflammatory reaction.",
+    "1": "Medium immune class with a moderate lymphocytic infiltrate in tumor and stroma.",
+    "2": "High immune class with dense tumor-infiltrating lymphocytes, brisk stromal inflammation, and often conspicuous lymphoid aggregates."
+  }
+}

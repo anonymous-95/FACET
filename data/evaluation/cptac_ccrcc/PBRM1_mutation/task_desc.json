@@ -1,0 +1,7 @@
+{
+  "task": "Predict PBRM1 mutation status in clear cell renal cell carcinoma of the kidney. Classes: wildtype vs. mutant. On H&E, PBRM1-mutant tumors often retain classic clear cell architecture but may show altered stromal and vascular patterns and lower-grade conventional morphology compared with more aggressive high-grade tumors.",
+  "classes": {
+    "0": "PBRM1 wildtype clear cell renal cell carcinoma with morphology less suggestive of classic lower-grade conventional clear cell pattern.",
+    "1": "PBRM1 mutant clear cell renal cell carcinoma with relatively conventional clear cell morphology, delicate vasculature, and often lower-grade appearance."
+  }
+}

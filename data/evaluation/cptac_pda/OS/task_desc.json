@@ -1,0 +1,13 @@
+{
+  "task": "Predict overall survival in pancreatic ductal adenocarcinoma using discretized time bins. Each class represents one of four survival quartiles from earliest to latest follow-up, combined with censored status or death event. On H&E, adverse features include poor differentiation, infiltrative growth, marked desmoplasia, perineural or lymphovascular invasion, tumor budding, and necrosis.",
+  "classes": {
+    "0": "Earliest survival quartile, censored — short follow-up without recorded death.",
+    "1": "Second survival quartile, censored — intermediate-short follow-up without recorded death.",
+    "2": "Third survival quartile, censored — intermediate-long follow-up without recorded death.",
+    "3": "Latest survival quartile, censored — longest follow-up without recorded death.",
+    "4": "Earliest survival quartile, event — death occurred early, consistent with highly aggressive pancreatic ductal adenocarcinoma morphology.",
+    "5": "Second survival quartile, event — death occurred at an intermediate-early timepoint.",
+    "6": "Third survival quartile, event — death occurred at an intermediate-late timepoint.",
+    "7": "Latest survival quartile, event — death occurred late after relatively prolonged survival."
+  }
+}

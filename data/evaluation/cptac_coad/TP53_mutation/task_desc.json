@@ -1,0 +1,7 @@
+{
+  "task": "Predict TP53 mutation status in colon adenocarcinoma. Classes: wildtype vs. mutant. On H&E, TP53-mutant tumors are more often associated with higher nuclear atypia, complex glandular architecture, increased mitotic activity, necrosis, and infiltrative aggressive growth.",
+  "classes": {
+    "0": "TP53 wildtype tumor with relatively lower-grade cytology and more orderly gland-forming morphology.",
+    "1": "TP53 mutant tumor showing marked nuclear pleomorphism, complex architecture, brisk mitotic activity, and necrotic aggressive growth."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "task": "Predict VHL mutation status in clear cell renal cell carcinoma of the kidney. Classes: negative vs. positive for mutation. On H&E, VHL-altered tumors typically show classic clear cell renal cell carcinoma morphology with abundant clear cytoplasm, delicate branching vasculature, and nested or alveolar architecture.",
+  "classes": {
+    "0": "VHL mutation-negative tumor lacking the most classic clear cell renal cell carcinoma pattern on H&E.",
+    "1": "VHL mutation-positive tumor with classic clear cell morphology, rich delicate vasculature, and nested or alveolar growth."
+  }
+}

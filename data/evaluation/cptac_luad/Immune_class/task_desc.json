@@ -1,0 +1,8 @@
+{
+  "task": "Classify immune class in lung adenocarcinoma. Classes: low, medium, and high immune class. On H&E, distinguish the degree of tumor-associated lymphocytic infiltration, stromal immune cell density, tertiary lymphoid aggregates, and inflammatory reaction around tumor nests.",
+  "classes": {
+    "0": "Low immune class with sparse tumor-infiltrating lymphocytes and little stromal inflammatory response.",
+    "1": "Medium immune class with a moderate lymphocytic infiltrate and intermediate stromal immune activation.",
+    "2": "High immune class with dense tumor-infiltrating lymphocytes, prominent stromal inflammation, and possible lymphoid aggregates."
+  }
+}

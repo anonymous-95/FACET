@@ -1,0 +1,7 @@
+{
+  "task": "Predict ACVR2A mutation status in colon adenocarcinoma. Classes: negative vs. positive. On H&E, ACVR2A-mutant tumors are often associated with hypermutated or mismatch repair-deficient morphology, including prominent tumor-infiltrating lymphocytes, mucinous change, poor differentiation, and medullary features.",
+  "classes": {
+    "0": "ACVR2A-negative colon adenocarcinoma with more conventional gland-forming morphology and less prominent hypermutated features.",
+    "1": "ACVR2A-positive colon adenocarcinoma with lymphocyte-rich, mucinous, poorly differentiated, or medullary-like morphology."
+  }
+}

@@ -1,0 +1,16 @@
+# Source: Patho-Bench (Mahmood Lab), https://huggingface.co/datasets/MahmoodLab/Patho-Bench
+# License: CC-BY-NC-4.0. Redistributed unmodified; see data/evaluation/README.md for citation.
+datasets:
+  - cptac_luad
+
+task_col: STK11_mutation
+extra_cols: []
+task_type: classification
+metrics:
+  - macro-ovr-auc
+label_dict:
+  0: wildtype
+  1: mutant
+
+sample_col: case_id
+num_samples: 108

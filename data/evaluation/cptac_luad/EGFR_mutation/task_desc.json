@@ -1,0 +1,7 @@
+{
+  "task": "Predict EGFR mutation status in lung adenocarcinoma. Classes: wildtype vs. mutant. On H&E, look for adenocarcinoma growth patterns that differ between groups, especially lepidic or papillary architecture, mucin production, nuclear atypia, and solid growth.",
+  "classes": {
+    "0": "EGFR wildtype lung adenocarcinoma with relatively more non-lepidic, higher-grade, or solid architectural patterns.",
+    "1": "EGFR mutant lung adenocarcinoma with features often enriched in this group, including lepidic or papillary growth, more delicate gland formation, and less overtly high-grade morphology."
+  }
+}

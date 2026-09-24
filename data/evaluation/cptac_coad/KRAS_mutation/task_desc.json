@@ -1,0 +1,7 @@
+{
+  "task": "Predict KRAS mutation status in colon adenocarcinoma. Classes: wildtype vs. mutant. On H&E, relevant clues include conventional gland-forming morphology, dirty necrosis, mucin production, infiltrative growth, and variation in tumor differentiation that may separate KRAS-mutant from wildtype tumors.",
+  "classes": {
+    "0": "KRAS wildtype colon adenocarcinoma with less distinctive KRAS-associated mucinous or infiltrative morphology.",
+    "1": "KRAS mutant colon adenocarcinoma showing conventional glandular growth, often with mucin production, dirty necrosis, and infiltrative architecture."
+  }
+}

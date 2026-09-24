@@ -1,0 +1,8 @@
+{
+  "task": "Classify immune class in clear cell renal cell carcinoma of the kidney. Classes: low, medium, and high immune infiltration. Key H&E cues include the density and distribution of lymphocytes and other inflammatory cells within tumor nests and stroma, along with associated stromal reaction and necrosis.",
+  "classes": {
+    "0": "Low immune class with sparse tumor-infiltrating inflammatory cells and relatively immune-desert tumor and stromal areas.",
+    "1": "Medium immune class with a moderate, patchy inflammatory infiltrate in tumor and stroma.",
+    "2": "High immune class with dense and widespread tumor-infiltrating lymphocytes or other inflammatory cells, often with brisk stromal inflammation."
+  }
+}
