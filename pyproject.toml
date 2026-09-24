@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "facet"
+version = "0.1.0"
+description = "FACET: Rethinking Whole-Slide Foundation Models Through Task-Conditioned Views"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "CC-BY-NC-ND-4.0" }
+authors = [{ name = "Anonymous" }]
+keywords = ["computational pathology", "whole-slide image", "foundation model", "multiple instance learning"]
+# CONCH, the text encoder, is installed from GitHub; see the README.
+dependencies = [
+    "torch>=2.0",
+    "huggingface_hub>=0.23",
+    "safetensors",
+    "h5py",
+    "numpy",
+    "pandas",
+    "pyyaml",
+]
+
+[tool.setuptools.packages.find]
+include = ["facet*"]
+
+[tool.setuptools.package-data]
+"facet.text" = ["prompts/*.md"]
