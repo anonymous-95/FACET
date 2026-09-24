@@ -1,0 +1,7 @@
+{
+  "task": "Classify histologic subtype in colorectal adenocarcinoma. Classes: conventional adenocarcinoma vs. mucinous adenocarcinoma. The main H&E distinction is the amount of extracellular mucin and whether tumor cells float within mucin pools rather than forming predominantly conventional glands.",
+  "classes": {
+    "0": "Conventional adenocarcinoma with predominantly gland-forming malignant epithelium and little extracellular mucin.",
+    "1": "Mucinous adenocarcinoma with abundant extracellular mucin pools containing floating clusters or single tumor cells."
+  }
+}

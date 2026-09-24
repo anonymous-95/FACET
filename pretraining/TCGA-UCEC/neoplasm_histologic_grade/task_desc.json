@@ -1,0 +1,7 @@
+{
+  "task": "Predict histologic grade in endometrial carcinoma. Classes: Low vs. High. Distinguishing H&E features include the degree of gland formation versus solid growth, nuclear atypia, mitotic activity, and tumor necrosis.",
+  "classes": {
+    "0": "Low-grade tumor with predominant gland formation, relatively uniform nuclei, and limited mitotic activity.",
+    "1": "High-grade tumor with increased solid architecture, marked nuclear atypia, brisk mitoses, and often necrosis."
+  }
+}

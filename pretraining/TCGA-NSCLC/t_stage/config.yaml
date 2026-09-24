@@ -1,0 +1,13 @@
+datasets:
+- TCGA-NSCLC
+task_col: t_stage
+original_column: T Stage
+extra_cols: []
+task_type: classification
+metrics:
+- macro-ovr-auc
+label_dict:
+  0: Low_T
+  1: High_T
+sample_col: case_id
+num_samples: 899

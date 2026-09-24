@@ -1,0 +1,13 @@
+datasets:
+- TCGA-STAD
+task_col: msi_status
+original_column: MSI Status
+extra_cols: []
+task_type: classification
+metrics:
+- macro-ovr-auc
+label_dict:
+  0: MSI
+  1: MSS
+sample_col: case_id
+num_samples: 246

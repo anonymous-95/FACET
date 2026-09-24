@@ -1,0 +1,7 @@
+{
+  "task": "Classify histologic subtype in non-small cell lung cancer. Classes: lung squamous cell carcinoma vs. lung adenocarcinoma. Distinguishing H&E features include keratinization and intercellular bridges for squamous carcinoma versus gland formation, acinar or lepidic patterns, and intracellular or extracellular mucin for adenocarcinoma.",
+  "classes": {
+    "0": "Lung squamous cell carcinoma showing polygonal cells with eosinophilic cytoplasm, keratinization, or intercellular bridges.",
+    "1": "Lung adenocarcinoma showing glandular differentiation, acinar or lepidic architecture, or mucin production."
+  }
+}

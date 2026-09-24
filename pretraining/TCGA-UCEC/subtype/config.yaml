@@ -1,0 +1,15 @@
+datasets:
+- TCGA-UCEC
+task_col: subtype
+original_column: Subtype
+extra_cols: []
+task_type: classification
+metrics:
+- macro-ovr-auc
+label_dict:
+  0: CN_HIGH
+  1: CN_LOW
+  2: MSI
+  3: POLE
+sample_col: case_id
+num_samples: 468

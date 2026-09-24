@@ -1,0 +1,7 @@
+{
+  "task": "Predict mutation status in non-small cell lung cancer. Classes: WT and MUT. On H&E, mutation-associated differences may appear as shifts in growth pattern, cytologic atypia, mucinous change, necrosis, or stromal and inflammatory context, but the prediction must rely only on morphology visible in routine sections.",
+  "classes": {
+    "0": "WT tumor lacking the specific mutation-associated morphologic pattern and showing more conventional non-small cell lung cancer histology.",
+    "1": "MUT tumor showing morphology suggestive of an altered molecular subtype, such as distinctive architecture, cytology, or tumor microenvironment."
+  }
+}

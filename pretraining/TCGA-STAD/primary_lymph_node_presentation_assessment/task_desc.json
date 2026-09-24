@@ -1,0 +1,7 @@
+{
+  "task": "Predict lymph node presentation status in gastric adenocarcinoma. Classes: node negative vs. node positive. Key H&E indicators include depth of invasion, lymphovascular invasion, infiltrative growth, poor differentiation, and tumor budding, which increase the likelihood of nodal spread.",
+  "classes": {
+    "0": "Node-negative gastric adenocarcinoma with more localized growth and fewer histologic signs of lymphatic dissemination.",
+    "1": "Node-positive gastric adenocarcinoma showing infiltrative invasion, lymphovascular invasion, tumor budding, or other features associated with metastatic spread to regional nodes."
+  }
+}

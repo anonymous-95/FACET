@@ -1,0 +1,7 @@
+{
+  "task": "Predict HER2 status in breast carcinoma. Classes: Negative vs. Positive. Key H&E indicators for HER2-positive disease include high-grade ductal morphology, solid architecture, conspicuous pleomorphism, apocrine features, and necrosis, while HER2-negative tumors more often lack this pattern.",
+  "classes": {
+    "0": "HER2-negative breast carcinoma without the characteristic HER2-enriched high-grade solid and necrotic morphology.",
+    "1": "HER2-positive breast carcinoma showing high-grade ductal features, solid nests or sheets, marked atypia, and possible central necrosis."
+  }
+}

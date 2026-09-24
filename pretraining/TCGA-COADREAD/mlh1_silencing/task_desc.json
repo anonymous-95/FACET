@@ -1,0 +1,7 @@
+{
+  "task": "Predict MLH1 silencing status in colorectal adenocarcinoma. Classes: No_Silencing vs. Silenced. MLH1-silenced tumors on H&E often show features linked to mismatch repair deficiency, including prominent lymphocytic infiltration, mucinous or medullary morphology, and poor gland formation.",
+  "classes": {
+    "0": "Tumor without MLH1 silencing, more often showing conventional colorectal adenocarcinoma morphology.",
+    "1": "MLH1-silenced tumor with lymphocyte-rich, mucinous, medullary, or poorly differentiated morphology."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "task": "Classify molecular subtype in gastric adenocarcinoma. Classes: CIN, GS, MSI, and EBV. On H&E, distinguish gland-forming chromosomal instability tumors, poorly cohesive genomically stable tumors, lymphocyte-rich or mucinous MSI tumors, and EBV-associated carcinomas with striking lymphoid stroma.",
+  "classes": {
+    "0": "CIN subtype with conventional gland-forming intestinal-type morphology, marked cytologic atypia, and desmoplastic invasive growth.",
+    "1": "GS subtype with poorly cohesive or diffuse infiltration, discohesive cells, and limited gland formation.",
+    "2": "MSI subtype with prominent tumor-infiltrating lymphocytes, mucinous or poorly differentiated areas, and pushing borders.",
+    "3": "EBV subtype with dense lymphoid stroma and syncytial or poorly differentiated carcinoma cells in a lymphocyte-rich background."
+  }
+}

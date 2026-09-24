@@ -1,0 +1,7 @@
+{
+  "task": "Classify hypermutation status in colorectal adenocarcinoma. Classes: Non-hypermutated vs. Hypermutated. Key H&E clues for hypermutated tumors include dense tumor-infiltrating lymphocytes, mucinous or medullary features, poor gland formation, and pushing borders.",
+  "classes": {
+    "0": "Non-hypermutated tumor with more conventional gland-forming adenocarcinoma morphology and less prominent lymphocytic infiltration.",
+    "1": "Hypermutated tumor with dense lymphocytes, mucinous or medullary differentiation, and reduced glandular architecture."
+  }
+}

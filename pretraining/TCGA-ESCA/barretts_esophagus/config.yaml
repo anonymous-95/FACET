@@ -1,0 +1,13 @@
+datasets:
+- TCGA-ESCA
+task_col: barretts_esophagus
+original_column: Barretts esophagus
+extra_cols: []
+task_type: classification
+metrics:
+- macro-ovr-auc
+label_dict:
+  0: 'No'
+  1: 'Yes'
+sample_col: case_id
+num_samples: 118
