@@ -1,0 +1,13 @@
+{
+  "task": "Predict disease-specific survival in colorectal adenocarcinoma using four ordered time bins with censored versus event status. Classes represent early to late follow-up intervals, split by whether disease-specific death occurred. H&E features linked to worse disease-specific outcome include high-grade histology, tumor budding, lymphovascular invasion, infiltrative growth, and deep wall penetration.",
+  "classes": {
+    "0": "Earliest time bin, censored — short disease-specific follow-up without disease-specific death.",
+    "1": "Second time bin, censored — intermediate-early follow-up without disease-specific death.",
+    "2": "Third time bin, censored — intermediate-late follow-up without disease-specific death.",
+    "3": "Fourth time bin, censored — longest follow-up without disease-specific death.",
+    "4": "Earliest time bin, event — disease-specific death occurred early, consistent with aggressive colorectal adenocarcinoma morphology.",
+    "5": "Second time bin, event — disease-specific death occurred at an intermediate-early interval.",
+    "6": "Third time bin, event — disease-specific death occurred at an intermediate-late interval.",
+    "7": "Fourth time bin, event — disease-specific death occurred late after prolonged follow-up."
+  }
+}

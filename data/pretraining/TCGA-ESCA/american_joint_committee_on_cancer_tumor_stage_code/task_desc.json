@@ -1,0 +1,7 @@
+{
+  "task": "Classify local tumor extent in esophageal carcinoma. Classes: Early_T vs. Advanced_T. Distinguishing H&E features include superficial versus deeply infiltrative growth, extent of stromal desmoplasia, and architectural destruction of the esophageal wall.",
+  "classes": {
+    "0": "Early_T tumor showing relatively superficial invasion and more limited disruption of native esophageal architecture.",
+    "1": "Advanced_T tumor showing deep infiltrative invasion with extensive wall destruction and desmoplastic response."
+  }
+}

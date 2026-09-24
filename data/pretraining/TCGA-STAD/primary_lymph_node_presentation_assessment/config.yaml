@@ -1,0 +1,13 @@
+datasets:
+- TCGA-STAD
+task_col: primary_lymph_node_presentation_assessment
+original_column: Primary Lymph Node Presentation Assessment
+extra_cols: []
+task_type: classification
+metrics:
+- macro-ovr-auc
+label_dict:
+  0: Node_Negative
+  1: Node_Positive
+sample_col: case_id
+num_samples: 364

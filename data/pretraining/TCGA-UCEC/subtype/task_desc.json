@@ -1,0 +1,9 @@
+{
+  "task": "Predict molecular subtype in endometrial carcinoma. Classes: CN_HIGH, CN_LOW, MSI, and POLE. On H&E, useful clues include serous-like high-grade atypia for CN_HIGH, lower-grade gland-forming morphology for CN_LOW, and prominent tumor-infiltrating lymphocytes, mucinous change, or heterogeneous morphology that can suggest MSI or POLE.",
+  "classes": {
+    "0": "CN_HIGH subtype with serous-like high-grade morphology, marked pleomorphism, and aggressive architectural features.",
+    "1": "CN_LOW subtype with lower-grade endometrioid morphology, preserved gland formation, and less striking atypia.",
+    "2": "MSI subtype with endometrioid morphology often accompanied by dense lymphocytic infiltration, mucinous features, or morphologic heterogeneity.",
+    "3": "POLE subtype often showing very brisk mitotic activity, striking nuclear atypia, and prominent lymphocytic infiltration despite endometrioid architecture."
+  }
+}

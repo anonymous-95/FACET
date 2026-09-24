@@ -1,0 +1,8 @@
+{
+  "task": "Classify tumor type in breast carcinoma. Classes: infiltrating ductal carcinoma, infiltrating lobular carcinoma, and special type. Key H&E clues include duct-forming cohesive nests for ductal carcinoma, discohesive single-file infiltration for lobular carcinoma, and distinctive subtype-specific patterns for special-type tumors.",
+  "classes": {
+    "0": "Infiltrating ductal carcinoma with cohesive malignant epithelial nests, tubule formation, and variable desmoplastic stroma.",
+    "1": "Infiltrating lobular carcinoma with discohesive cells, single-file infiltration, and often low-cohesion growth lacking well-formed ducts.",
+    "2": "Special-type breast carcinoma showing a distinctive histologic pattern that differs from conventional ductal and lobular morphology."
+  }
+}

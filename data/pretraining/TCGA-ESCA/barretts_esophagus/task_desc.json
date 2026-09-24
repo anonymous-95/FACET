@@ -1,0 +1,7 @@
+{
+  "task": "Predict the presence of Barrett esophagus in esophageal carcinoma. Classes: No vs. Yes. On H&E, look for adjacent intestinal metaplasia with goblet cells and specialized columnar epithelium versus absence of this metaplastic background.",
+  "classes": {
+    "0": "No Barrett esophagus — no adjacent intestinal metaplasia or goblet cell-lined columnar mucosa is identified.",
+    "1": "Yes Barrett esophagus — adjacent Barrett mucosa with intestinal metaplasia and goblet cells is present."
+  }
+}

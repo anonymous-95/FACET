@@ -1,0 +1,7 @@
+{
+  "task": "Predict progesterone receptor status in breast carcinoma. Classes: PR negative vs. PR positive. On H&E, PR-positive tumors more often show luminal differentiation with lower grade and better tubule formation, whereas PR-negative tumors more often show higher grade, solid growth, pleomorphism, and increased mitotic activity.",
+  "classes": {
+    "0": "PR-negative breast carcinoma with less luminal differentiation, higher nuclear grade, and more proliferative solid growth.",
+    "1": "PR-positive breast carcinoma with more luminal-type morphology, better gland formation, and generally lower grade features."
+  }
+}

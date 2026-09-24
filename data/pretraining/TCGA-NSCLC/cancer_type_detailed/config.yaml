@@ -1,0 +1,13 @@
+datasets:
+- TCGA-NSCLC
+task_col: cancer_type_detailed
+original_column: Cancer Type Detailed
+extra_cols: []
+task_type: classification
+metrics:
+- macro-ovr-auc
+label_dict:
+  0: Lung Squamous Cell Carcinoma
+  1: Lung Adenocarcinoma
+sample_col: case_id
+num_samples: 904

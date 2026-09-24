@@ -1,0 +1,7 @@
+{
+  "task": "Predict T stage group in non-small cell lung cancer. Classes: Low_T vs. High_T, representing lower versus higher primary tumor extent. Useful H&E cues include degree of local invasion, pleural involvement, destructive growth into surrounding tissue, and overall tumor bulk.",
+  "classes": {
+    "0": "Low_T tumor with more limited local invasion and a relatively confined primary lesion.",
+    "1": "High_T tumor with broader invasive spread, pleural or adjacent tissue involvement, and more locally advanced morphology."
+  }
+}

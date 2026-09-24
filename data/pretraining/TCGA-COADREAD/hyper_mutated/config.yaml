@@ -1,0 +1,13 @@
+datasets:
+- TCGA-COADREAD
+task_col: hyper_mutated
+original_column: Hyper-mutated
+extra_cols: []
+task_type: classification
+metrics:
+- macro-ovr-auc
+label_dict:
+  0: Non-hypermutated
+  1: Hypermutated
+sample_col: case_id
+num_samples: 132

@@ -1,0 +1,13 @@
+datasets:
+- TCGA-NSCLC
+task_col: mutation_status
+original_column: Mutation Status
+extra_cols: []
+task_type: classification
+metrics:
+- macro-ovr-auc
+label_dict:
+  0: WT
+  1: MUT
+sample_col: case_id
+num_samples: 282

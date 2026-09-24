@@ -1,0 +1,7 @@
+{
+  "task": "Predict estrogen receptor status in breast carcinoma. Classes: ER_Negative vs. ER_Positive. On H&E, ER-positive tumors more often show lower to intermediate grade, tubule formation, and less pleomorphism, whereas ER-negative tumors more often show high grade, solid growth, marked atypia, and brisk mitotic activity.",
+  "classes": {
+    "0": "ER-negative breast carcinoma with high-grade morphology, reduced tubule formation, marked nuclear pleomorphism, and frequent mitoses.",
+    "1": "ER-positive breast carcinoma with more luminal-type morphology, including better gland formation, lower nuclear grade, and less proliferative appearance."
+  }
+}

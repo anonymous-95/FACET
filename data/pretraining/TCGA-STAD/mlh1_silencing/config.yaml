@@ -1,0 +1,13 @@
+datasets:
+- TCGA-STAD
+task_col: mlh1_silencing
+original_column: MLH1 Silencing
+extra_cols: []
+task_type: classification
+metrics:
+- macro-ovr-auc
+label_dict:
+  0: No_Silencing
+  1: Silenced
+sample_col: case_id
+num_samples: 201

@@ -1,0 +1,7 @@
+{
+  "task": "Classify detailed cancer type in esophageal cancer. Classes: esophageal squamous cell carcinoma vs. esophageal adenocarcinoma. Key H&E clues include keratinization, intercellular bridges, and nested squamous growth for squamous carcinoma versus gland formation, mucin production, and Barrett-associated columnar background for adenocarcinoma.",
+  "classes": {
+    "0": "Esophageal squamous cell carcinoma showing squamous differentiation with keratinization, intercellular bridges, or nests of polygonal tumor cells.",
+    "1": "Esophageal adenocarcinoma showing malignant glands, mucin production, or infiltrative columnar-type tumor cells."
+  }
+}

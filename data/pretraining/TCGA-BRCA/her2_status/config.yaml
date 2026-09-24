@@ -1,0 +1,13 @@
+datasets:
+- TCGA-BRCA
+task_col: her2_status
+original_column: HER2 Status
+extra_cols: []
+task_type: classification
+metrics:
+- macro-ovr-auc
+label_dict:
+  0: Negative
+  1: Positive
+sample_col: case_id
+num_samples: 670
